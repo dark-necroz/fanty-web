@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Homepage Fanty Web</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta lang="de">
+        <meta name="description" content="Fantasy Web - Entdecke spannende Fantasy Novels online">
+        <link rel="icon" href="assets/fantasy-logo.svg">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="site-header__top">
+                <a href="index.html" class="site-header__logo-link">
+                    <img src="assets/fantasy-logo.svg" alt="Logo of webpage">
+                </a>
+                <form role="search" class="site-header__search-form">
+                    <label for="search" class="site-header__search-label">Suche</label>
+                    <input type="search" id="search" name="search" class="site-header__search-input">
+                    <button type="submit" class="site-header__search-button">Suche</button>
+                </form>
+            </div>
+            <hgroup class="site-header__branding">
+                <h1 class="site-header__title">Fantasy Web</h1>
+                <p class="site-header__tagline">Deine Welt voller Abenteuer</p>
+            </hgroup>
+
+            <nav class="nav-main">
+                <ul class="nav-main__list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="html/novel-overview.html">Novels</a></li>
+                    <li><a href="html/ranking.html">Ranking</a></li>
+                </ul>
+            </nav>
+
+        </header>
+        <main>
+            <section class="most-trending">
+                <h2 class="most-trending__title">Die beliebtesten Novels</h2>
+                <ul class="most-trending__list">
+                    <li class="most-trending__item">
+                        <a href="html/AgarthaDieGeschichteVonJahoppy.html" class="most-trending__link">
+                            <h3 class="most-trending__name">Argartha: Die Geschichte von Jahoppy</h3>
+                            <img src="assets/agartha.webp" alt="" class="most-trending__cover">
+                            <p class="most-trending__description">A Young Hero on a Journey to kill a tyrant</p>
+                            <div class="most-trending__meta">
+                                <span class="most-trending__chapter">Chapter 11</span>
+                                <span class="most-trending__status">Completed</span>
+                                <time class="most-trending__time" datetime="2025-01-04T12:00">23h ago</time>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <P>&copy; 2026 Fantasy Web</P>
+        </footer>
+
+    </body>
+</html>
