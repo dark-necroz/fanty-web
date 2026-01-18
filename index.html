@@ -1,183 +1,192 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Fantasy Web</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta lang="de">
-        <meta name="description" content="Fantasy Web - Entdecke spannende Fantasy Novels online">
-        <link rel="icon" href="assets/fantasy-logo.svg">
-        <link rel="stylesheet" href="css/style.css">
-        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel+Decorative:wght@400;700;900&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <header class="site-header">
-            <div class="site-header__top">
-                <a href="index.html" class="site-header__logo-link">
-                    <img src="assets/fantasy-logo.svg" alt="Logo of webpage" class="site-header__logo">
-                </a>
-                <form role="search" class="site-header__search-form">
-                    <input type="search" id="search" name="search" class="site-header__search-input" placeholder="Suche">
-                </form>
-            </div>
-            <hgroup class="site-header__branding">
-                <h1 class="site-header__title">Fantasy Web</h1>
-                <p class="site-header__tagline"><strong>Deine Welt voller Abenteuer</strong></p>
-            </hgroup>
-        </header>
-        <main>
-            <section class="most-trending">
-                <h2 class="most-trending__title">Die beliebtesten Novels</h2>
-                <ul class="most-trending__list">
-                    <li class="most-trending__item">
-                        <a href="html/Agartha_Die_Geschichte_von_Jahoppy.html" class="most-trending__link">
-                            <img src="assets/agartha.webp" alt="" class="most-trending__cover">
-                            <h3 class="most-trending__name">Agartha: Die Geschichte von Jahoppy</h3>
-                            <p class="most-trending__description">Ein junger Held auf einer Reise, einen Tyrannen zu stürzen</p>
-                            <div class="most-trending__meta">
-                                <span class="most-trending__chapter">Kap. 11</span>
-                                <span class="most-trending__status">Fertig</span>
-                                <time class="most-trending__time" datetime="2025-01-04T12:00">23h</time>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="most-trending__item">
-                        <a href="html/SchattenkronenErbe.html" class="most-trending__link">
-                            <img src="assets/schattenkrone.webp" alt="" class="most-trending__cover">
-                            <h3 class="most-trending__name">Schattenkronens Erbe</h3>
-                            <p class="most-trending__description">Eine verbannte Prinzessin entdeckt dunkle Magie in ihrem Blut</p>
-                            <div class="most-trending__meta">
-                                <span class="most-trending__chapter">Kap. 87</span>
-                                <span class="most-trending__status">Laufend</span>
-                                <time class="most-trending__time" datetime="2025-01-05T18:00">5h</time>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="most-trending__item">
-                        <a href="html/DerLetzteDrachenreiter.html" class="most-trending__link">
-                            <img src="assets/drachenreiter.webp" alt="" class="most-trending__cover">
-                            <h3 class="most-trending__name">Der Letzte Drachenreiter</h3>
-                            <p class="most-trending__description">Als die Drachen verschwanden, blieb nur ein Reiter zurück</p>
-                            <div class="most-trending__meta">
-                                <span class="most-trending__chapter">Kap. 156</span>
-                                <span class="most-trending__status">Laufend</span>
-                                <time class="most-trending__time" datetime="2025-01-05T10:00">13h</time>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="most-trending__item">
-                        <a href="html/KristallkriegerAufstieg.html" class="most-trending__link">
-                            <img src="assets/kristallkrieger.webp" alt="" class="most-trending__cover">
-                            <h3 class="most-trending__name">Kristallkrieger: Aufstieg</h3>
-                            <p class="most-trending__description">Ein Sklave erwacht mit der Macht, Kristalle zu kontrollieren</p>
-                            <div class="most-trending__meta">
-                                <span class="most-trending__chapter">Kap. 243</span>
-                                <span class="most-trending__status">Laufend</span>
-                                <time class="most-trending__time" datetime="2025-01-05T20:00">3h</time>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="most-trending__item">
-                        <a href="html/MondflammenSaga.html" class="most-trending__link">
-                            <img src="assets/mondflamme.webp" alt="" class="most-trending__cover">
-                            <h3 class="most-trending__name">Die Mondflammen-Saga</h3>
-                            <p class="most-trending__description">Zwei verfeindete Magier müssen die Welt retten</p>
-                            <div class="most-trending__meta">
-                                <span class="most-trending__chapter">Kap. 64</span>
-                                <span class="most-trending__status">Fertig</span>
-                                <time class="most-trending__time" datetime="2025-01-03T12:00">2d</time>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="most-trending__item">
-                        <a href="html/BlutEidDerWoelfe.html" class="most-trending__link">
-                            <img src="assets/bluteid.webp" alt="" class="most-trending__cover">
-                            <h3 class="most-trending__name">Bluteid der Wölfe</h3>
-                            <p class="most-trending__description">Ein Werwolf-Clan kämpft um seine Existenz</p>
-                            <div class="most-trending__meta">
-                                <span class="most-trending__chapter">Kap. 92</span>
-                                <span class="most-trending__status">Laufend</span>
-                                <time class="most-trending__time" datetime="2025-01-04T08:00">1d</time>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="most-trending__item">
-                        <a href="html/AscheUndSterne.html" class="most-trending__link">
-                            <img src="assets/aschesterne.webp" alt="" class="most-trending__cover">
-                            <h3 class="most-trending__name">Asche und Sterne</h3>
-                            <p class="most-trending__description">Nach dem Weltenbrand sucht sie nach Überlebenden</p>
-                            <div class="most-trending__meta">
-                                <span class="most-trending__chapter">Kap. 45</span>
-                                <span class="most-trending__status">Laufend</span>
-                                <time class="most-trending__time" datetime="2025-01-05T14:00">9h</time>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="most-trending__item">
-                        <a href="https://www.justice.gov/epstein" class="most-trending__link">
-                            <img src="assets/ewigeklinge.webp" alt="" class="most-trending__cover">
-                            <h3 class="most-trending__name">Die Ewige Klinge</h3>
-                            <p class="most-trending__description">Ein unsterbliches Schwert wählt seinen nächsten Träger</p>
-                            <div class="most-trending__meta">
-                                <span class="most-trending__chapter">Kap. 128</span>
-                                <span class="most-trending__status">Laufend</span>
-                                <time class="most-trending__time" datetime="2025-01-05T16:00">7h</time>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="most-trending__item">
-                        <a href="html/NebelkoenigReich.html" class="most-trending__link">
-                            <img src="assets/nebelkoenig.webp" alt="" class="most-trending__cover">
-                            <h3 class="most-trending__name">Reich des Nebelkönigs</h3>
-                            <p class="most-trending__description">Im verborgenen Reich herrscht ein König ohne Gesicht</p>
-                            <div class="most-trending__meta">
-                                <span class="most-trending__chapter">Kap. 201</span>
-                                <span class="most-trending__status">Laufend</span>
-                                <time class="most-trending__time" datetime="2025-01-05T22:00">1h</time>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="most-trending__item">
-                        <a href="html/Seelenweberin.html" class="most-trending__link">
-                            <img src="assets/seelenweberin.webp" alt="" class="most-trending__cover">
-                            <h3 class="most-trending__name">Die Seelenweberin</h3>
-                            <p class="most-trending__description">Sie kann Seelen sehen – und stehlen</p>
-                            <div class="most-trending__meta">
-                                <span class="most-trending__chapter">Kap. 76</span>
-                                <span class="most-trending__status">Fertig</span>
-                                <time class="most-trending__time" datetime="2025-01-02T12:00">3d</time>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="most-trending__item">
-                        <a href="html/ZornDerTitanen.html" class="most-trending__link">
-                            <img src="assets/titanenzorn.webp" alt="" class="most-trending__cover">
-                            <h3 class="most-trending__name">Zorn der Titanen</h3>
-                            <p class="most-trending__description">Die alten Götter erwachen – und sie sind wütend</p>
-                            <div class="most-trending__meta">
-                                <span class="most-trending__chapter">Kap. 312</span>
-                                <span class="most-trending__status">Laufend</span>
-                                <time class="most-trending__time" datetime="2025-01-05T19:00">4h</time>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="most-trending__item">
-                        <a href="html/FluesterndeWaelder.html" class="most-trending__link">
-                            <img src="assets/fluesterndewald.webp" alt="" class="most-trending__cover">
-                            <h3 class="most-trending__name">Die Flüsternden Wälder</h3>
-                            <p class="most-trending__description">Der Wald spricht – aber nur sie kann ihn hören</p>
-                            <div class="most-trending__meta">
-                                <span class="most-trending__chapter">Kap. 54</span>
-                                <span class="most-trending__status">Laufend</span>
-                                <time class="most-trending__time" datetime="2025-01-04T20:00">1d</time>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-            </section>
-        </main>
-        <footer>
-            <p>&copy; 2026 Fantasy Web</p>
-        </footer>
-    </body>
+
+<head>
+    <title>Fantasy Web</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta lang="de">
+    <meta name="description" content="Fantasy Web - Entdecke spannende Fantasy Novels online">
+    <link rel="icon" href="assets/fantasy-logo.svg">
+    <link rel="stylesheet" href="css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel+Decorative:wght@400;700;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="site-header__top">
+            <a href="index.html" class="site-header__logo-link">
+                <img src="assets/fantasy-logo.svg" alt="Logo of webpage" class="site-header__logo">
+            </a>
+            <form role="search" class="site-header__search-form">
+                <input type="search" id="search" name="search" class="site-header__search-input" placeholder="Suche">
+            </form>
+        </div>
+        <hgroup class="site-header__branding">
+            <h1 class="site-header__title">Fantasy Web</h1>
+            <p class="site-header__tagline"><strong>Deine Welt voller Abenteuer</strong></p>
+        </hgroup>
+    </header>
+    <main>
+        <section class="most-trending">
+            <h2 class="most-trending__title">Die beliebtesten Novels</h2>
+            <ul class="most-trending__list">
+                <li class="most-trending__item">
+                    <a href="html/Agartha_Die_Geschichte_von_Jahoppy.html" class="most-trending__link">
+                        <img src="assets/agartha.webp" alt="" class="most-trending__cover">
+                        <h3 class="most-trending__name">Agartha: Die Geschichte von Jahoppy</h3>
+                        <p class="most-trending__description">Ein junger Held auf einer Reise, einen Tyrannen zu stürzen
+                        </p>
+                        <div class="most-trending__meta">
+                            <span class="most-trending__chapter">Kap. 11</span>
+                            <span class="most-trending__status">Fertig</span>
+                            <time class="most-trending__time" datetime="2025-01-04T12:00">23h</time>
+                        </div>
+                    </a>
+                </li>
+                <li class="most-trending__item">
+                    <a href="html/SchattenkronenErbe.html" class="most-trending__link">
+                        <img src="assets/schattenkrone.webp" alt="" class="most-trending__cover">
+                        <h3 class="most-trending__name">Schattenkronens Erbe</h3>
+                        <p class="most-trending__description">Eine verbannte Prinzessin entdeckt dunkle Magie in ihrem
+                            Blut</p>
+                        <div class="most-trending__meta">
+                            <span class="most-trending__chapter">Kap. 87</span>
+                            <span class="most-trending__status">Laufend</span>
+                            <time class="most-trending__time" datetime="2025-01-05T18:00">5h</time>
+                        </div>
+                    </a>
+                </li>
+                <li class="most-trending__item">
+                    <a href="html/DerLetzteDrachenreiter.html" class="most-trending__link">
+                        <img src="assets/drachenreiter.webp" alt="" class="most-trending__cover">
+                        <h3 class="most-trending__name">Der Letzte Drachenreiter</h3>
+                        <p class="most-trending__description">Als die Drachen verschwanden, blieb nur ein Reiter zurück
+                        </p>
+                        <div class="most-trending__meta">
+                            <span class="most-trending__chapter">Kap. 156</span>
+                            <span class="most-trending__status">Laufend</span>
+                            <time class="most-trending__time" datetime="2025-01-05T10:00">13h</time>
+                        </div>
+                    </a>
+                </li>
+                <li class="most-trending__item">
+                    <a href="html/KristallkriegerAufstieg.html" class="most-trending__link">
+                        <img src="assets/kristallkrieger.webp" alt="" class="most-trending__cover">
+                        <h3 class="most-trending__name">Kristallkrieger: Aufstieg</h3>
+                        <p class="most-trending__description">Ein Sklave erwacht mit der Macht, Kristalle zu
+                            kontrollieren</p>
+                        <div class="most-trending__meta">
+                            <span class="most-trending__chapter">Kap. 243</span>
+                            <span class="most-trending__status">Laufend</span>
+                            <time class="most-trending__time" datetime="2025-01-05T20:00">3h</time>
+                        </div>
+                    </a>
+                </li>
+                <li class="most-trending__item">
+                    <a href="html/MondflammenSaga.html" class="most-trending__link">
+                        <img src="assets/mondflamme.webp" alt="" class="most-trending__cover">
+                        <h3 class="most-trending__name">Die Mondflammen-Saga</h3>
+                        <p class="most-trending__description">Zwei verfeindete Magier müssen die Welt retten</p>
+                        <div class="most-trending__meta">
+                            <span class="most-trending__chapter">Kap. 64</span>
+                            <span class="most-trending__status">Fertig</span>
+                            <time class="most-trending__time" datetime="2025-01-03T12:00">2d</time>
+                        </div>
+                    </a>
+                </li>
+                <li class="most-trending__item">
+                    <a href="html/BlutEidDerWoelfe.html" class="most-trending__link">
+                        <img src="assets/bluteid.webp" alt="" class="most-trending__cover">
+                        <h3 class="most-trending__name">Bluteid der Wölfe</h3>
+                        <p class="most-trending__description">Ein Werwolf-Clan kämpft um seine Existenz</p>
+                        <div class="most-trending__meta">
+                            <span class="most-trending__chapter">Kap. 92</span>
+                            <span class="most-trending__status">Laufend</span>
+                            <time class="most-trending__time" datetime="2025-01-04T08:00">1d</time>
+                        </div>
+                    </a>
+                </li>
+                <li class="most-trending__item">
+                    <a href="html/AscheUndSterne.html" class="most-trending__link">
+                        <img src="assets/aschesterne.webp" alt="" class="most-trending__cover">
+                        <h3 class="most-trending__name">Asche und Sterne</h3>
+                        <p class="most-trending__description">Nach dem Weltenbrand sucht sie nach Überlebenden</p>
+                        <div class="most-trending__meta">
+                            <span class="most-trending__chapter">Kap. 45</span>
+                            <span class="most-trending__status">Laufend</span>
+                            <time class="most-trending__time" datetime="2025-01-05T14:00">9h</time>
+                        </div>
+                    </a>
+                </li>
+                <li class="most-trending__item">
+                    <a href="https://www.justice.gov/epstein" class="most-trending__link">
+                        <img src="assets/ewigeklinge.webp" alt="" class="most-trending__cover">
+                        <h3 class="most-trending__name">Die Ewige Klinge</h3>
+                        <p class="most-trending__description">Ein unsterbliches Schwert wählt seinen nächsten Träger</p>
+                        <div class="most-trending__meta">
+                            <span class="most-trending__chapter">Kap. 128</span>
+                            <span class="most-trending__status">Laufend</span>
+                            <time class="most-trending__time" datetime="2025-01-05T16:00">7h</time>
+                        </div>
+                    </a>
+                </li>
+                <li class="most-trending__item">
+                    <a href="html/NebelkoenigReich.html" class="most-trending__link">
+                        <img src="assets/nebelkoenig.webp" alt="" class="most-trending__cover">
+                        <h3 class="most-trending__name">Reich des Nebelkönigs</h3>
+                        <p class="most-trending__description">Im verborgenen Reich herrscht ein König ohne Gesicht</p>
+                        <div class="most-trending__meta">
+                            <span class="most-trending__chapter">Kap. 201</span>
+                            <span class="most-trending__status">Laufend</span>
+                            <time class="most-trending__time" datetime="2025-01-05T22:00">1h</time>
+                        </div>
+                    </a>
+                </li>
+                <li class="most-trending__item">
+                    <a href="html/Seelenweberin.html" class="most-trending__link">
+                        <img src="assets/seelenweberin.webp" alt="" class="most-trending__cover">
+                        <h3 class="most-trending__name">Die Seelenweberin</h3>
+                        <p class="most-trending__description">Sie kann Seelen sehen – und stehlen</p>
+                        <div class="most-trending__meta">
+                            <span class="most-trending__chapter">Kap. 76</span>
+                            <span class="most-trending__status">Fertig</span>
+                            <time class="most-trending__time" datetime="2025-01-02T12:00">3d</time>
+                        </div>
+                    </a>
+                </li>
+                <li class="most-trending__item">
+                    <a href="html/ZornDerTitanen.html" class="most-trending__link">
+                        <img src="assets/titanenzorn.webp" alt="" class="most-trending__cover">
+                        <h3 class="most-trending__name">Zorn der Titanen</h3>
+                        <p class="most-trending__description">Die alten Götter erwachen – und sie sind wütend</p>
+                        <div class="most-trending__meta">
+                            <span class="most-trending__chapter">Kap. 312</span>
+                            <span class="most-trending__status">Laufend</span>
+                            <time class="most-trending__time" datetime="2025-01-05T19:00">4h</time>
+                        </div>
+                    </a>
+                </li>
+                <li class="most-trending__item">
+                    <a href="html/FluesterndeWaelder.html" class="most-trending__link">
+                        <img src="assets/fluesterndewald.webp" alt="" class="most-trending__cover">
+                        <h3 class="most-trending__name">Die Flüsternden Wälder</h3>
+                        <p class="most-trending__description">Der Wald spricht – aber nur sie kann ihn hören</p>
+                        <div class="most-trending__meta">
+                            <span class="most-trending__chapter">Kap. 54</span>
+                            <span class="most-trending__status">Laufend</span>
+                            <time class="most-trending__time" datetime="2025-01-04T20:00">1d</time>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Fantasy Web</p>
+    </footer>
+</body>
+
 </html>
